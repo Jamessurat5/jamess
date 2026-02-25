@@ -27,13 +27,13 @@
             }
         }
 
-        // echo "<ul>";
-        // foreach($users as $user) {
-        //     echo "<li>";
-        //     echo $user->first_name . " " . $user->last_name . " " . $user->age;
-        //     echo "</li>";
-        // }
-        // echo "</ul>";
+        echo "<ul>";
+        foreach($users as $user) {
+            echo "<li>";
+            echo $user->first_name . " " . $user->last_name . " " . $user->age;
+            echo "</li>";
+        }
+        echo "</ul>";
     ?>
 </body>
 </html>
